@@ -1,0 +1,346 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+/*navbar css*/
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  box-shadow: 0 4px 8px 0 #555;
+  align-items: center;
+  position:fixed;
+  width: 100%;
+  height: 120px;
+}
+
+.topleft{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex: 3;
+}
+
+.applogo{                   
+  width: 80px;
+  height: 80px;
+  margin-left: 40px;
+  margin-bottom: 5px;
+  border-radius: 120px;
+}
+
+.appname{               
+  font-size: 50px;
+  font-weight: bold;
+  color: white;  
+  font-family: 'Concert One', sans-serif;
+  text-align: center;
+}
+
+.topright{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.searchbox{              
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  padding: 10px ;
+  width: 300px;
+  align-items: center;
+  border-radius: 90px;
+  background-color: white;
+}
+
+.search-icon{
+  width: 35px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.topcentre {
+  text-align: center;
+  flex: 6;
+  align-items: center;
+}
+
+.toplist {
+  font: bold;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  list-style-type:  none;
+}
+
+.toplistitem{
+  margin-right: 20px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Concert One', sans-serif;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*header css*/
+.header{
+  background-color:white;
+  margin: 0;
+  font-family: 'Concert One', sans-serif;
+
+}
+
+.headertext{
+  color: rgb(165, 56, 42);
+  font-size: 70px;
+  text-shadow: 0 0 15px rgb(238, 255, 0);
+  margin: 10px;
+  padding: 10px;
+}
+
+.headerimg{
+  margin-top: 70px;
+  width : 100%;
+  height: 100%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*home css*/
+
+.home{
+  background-size: 'cover';
+  background-color: #1a1a1a;
+  background-repeat: no-repeat;
+
+}
+
+.offer{
+  display: flex;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*sidebar css*/
+
+.sidebar{
+  width: 10px;
+  height: 10px;
+  padding: 20px;
+}
+
+.sidebartitle{
+  color: blueviolet;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  size: 10px;
+  margin-top: 10px;
+  display: flex;
+  background-color: beige;
+  text-align: center;
+}
+
+.sidebartext{
+  text-align: justify;
+  color: chocolate;
+  margin-bottom: 10px;
+}
+
+.sidebarlist{
+  list-style: square;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: grey;
+  cursor: pointer;
+}
+
+.sidebarimg{
+  margin-top: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+
+.menuimage{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 250px;
+  height: 250px;
+}
+
+.chefimage{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 250px;
+}
+
+.cheftext{
+  text-align: justify;
+  color: chocolate;
+}
+
+.social-icon{
+  display: flex;
+  height:45px;
+  width: 30px;
+  margin: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*SinglePost*/  
+
+.single{
+  display: flex;
+}
+
+.singlePostWrapper{
+   padding: 20px;
+   padding-right: 0;
+
+}
+
+.singlepost{
+  flex:9;
+  background-repeat: repeat-y;
+}
+
+.menu-img{
+  height: 250px;
+  width:250px;
+  display:block;
+  flex-direction: column;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*bootstrp  css*/
+
+
+.nav-full{
+  font-family: 'Concert One', sans-serif;
+}
+
+
+.logo{
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+}
+
+
+
+
+
+/*order css*/
+
+.order{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a; 
+  background-size: cover;
+}
+
+.orderTitle {
+  font-size: 50px;
+  color: white;
+}
+
+.orderForm {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.orderForm > label {
+  margin: 10px 10px;
+}
+
+.orderInput:focus {
+  outline: none;
+}
+
+.orderInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.orderButton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color:magenta;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*********************----------------------------------------------------*/
+
+
+
+
+
